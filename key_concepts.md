@@ -1,121 +1,119 @@
-1. Technical Depth (Very Important)
+# Technical Preparation: Depth and Breadth (Apple Interview Focus)
 
-Depth means: you can go deep on a few core areas and explain trade-offs clearly.
+---
 
-A. Ruby (Must-Have Depth)
+## 1. Technical Depth (Very Important)
 
-Be able to explain why, not just how.
+**Depth means:** you can go deep on a few core areas and clearly explain *trade-offs*, not just implementation details.
 
-Prepare deeply:
+---
 
-Ruby object model
+### A. Ruby (Must-Have Depth)
 
-Method lookup chain (include, prepend, extend)
+Be able to explain **why**, not just **how**.
 
-Singleton classes
+#### Prepare deeply on:
+- Ruby object model
+- Method lookup chain (`include`, `prepend`, `extend`)
+- Singleton classes (eigenclasses)
+- Metaprogramming trade-offs:
+  - `define_method` vs `method_missing`
+- Garbage collection:
+  - Generational GC
+  - Object allocation costs
+- Concurrency:
+  - GIL
+  - Threads vs processes
 
-Metaprogramming trade-offs (define_method vs method_missing)
+#### What Apple listens for:
+- Judgment
+- Maintainability
+- Performance awareness
 
-Garbage collection (generational GC, allocation costs)
+---
 
-Concurrency (GIL, threads vs processes)
+### B. Rails Internals & Architecture (Must-Have Depth)
 
-What Apple listens for:
+Prepare **one Rails system** you know well and can explain end to end.
 
-Judgment
+#### Deep topics:
+- Request lifecycle
+- ActiveRecord performance:
+  - N+1 queries
+  - Indexing
+  - Batching
+- Modular monolith vs microservices
+- Callbacks vs service objects
+- Background jobs (Sidekiq)
+- Feature flags & safe rollouts
 
-Maintainability
+#### You should be able to:
+- Walk through a request:
+  - **HTTP request → DB → background job → metrics**
 
-Performance awareness
+---
 
-B. Rails Internals & Architecture (Must-Have Depth)
+### C. Data & Persistence (Must-Have Depth)
 
-Prepare one Rails system you know well.
+- SQL fundamentals:
+  - Joins
+  - Aggregates
+- Indexing strategies
+- JSONB trade-offs
+- Data migrations and backfills
+- Idempotency and correctness
 
-Deep topics:
+---
 
-Request lifecycle
+### D. Testing (Must-Have Depth)
 
-ActiveRecord performance (N+1, indexing, batching)
+- What to test vs what *not* to test
+- Unit vs integration vs system tests
+- Characterization tests for legacy systems
+- Testing strategies under ambiguity
 
-Modular monolith vs microservices
+---
 
-Callbacks vs service objects
+## 2. Technical Breadth (Important)
 
-Background jobs (Sidekiq)
+**Breadth means:** you can reason about adjacent systems and collaborate effectively across disciplines.
 
-Feature flags & safe rollouts
+---
 
-You should be able to:
+### A. Front-End (Working Knowledge)
 
-Walk from HTTP request → DB → background job → metrics.
+- HTML semantics
+- CSS basics (Flexbox)
+- JavaScript fundamentals
+- Stimulus vs Turbo
+- When *not* to use React
 
-C. Data & Persistence (Must-Have Depth)
+---
 
-SQL fundamentals (joins, aggregates)
+### B. Observability & Reliability
 
-Indexing strategies
+- Logging
+- Metrics
+- Alerts
+- Debugging production issues
+- Rollback strategies
 
-JSONB trade-offs
+---
 
-Data migrations & backfills
+### C. DevOps Awareness
 
-Idempotency & correctness
+- CI/CD concepts
+- Feature flags
+- Environment configuration
+- Safe deploy patterns
 
-D. Testing (Must-Have Depth)
+---
 
-What to test vs what not to test
+### D. Big Data Awareness
 
-Unit vs integration vs system tests
+- Structured vs unstructured data
+- Batch vs streaming processing
+- Data quality and drift
+- Collaboration with data scientists
 
-Characterization tests for legacy systems
-
-Testing under ambiguity
-
-2. Technical Breadth (Important)
-
-Breadth means: you can reason about adjacent systems and collaborate effectively.
-
-A. Front-End (Working Knowledge)
-
-HTML semantics
-
-CSS basics (Flexbox)
-
-JavaScript fundamentals
-
-Stimulus vs Turbo
-
-When not to use React
-
-B. Observability & Reliability
-
-Logging
-
-Metrics
-
-Alerts
-
-Debugging production issues
-
-Rollbacks
-
-C. DevOps Awareness
-
-CI/CD concepts
-
-Feature flags
-
-Environment configuration
-
-Safe deploy patterns
-
-D. Big Data Awareness
-
-Structured vs unstructured data
-
-Batch vs streaming
-
-Data quality & drift
-
-Collaboration with data scientists
+---
