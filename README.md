@@ -3,7 +3,8 @@
 ## Tier 1: Must-Read Ruby & Rails Blogs
 
 ### Ruby on Rails (Official)
-- https://rubyonrails.org/blog  
+- https://rubyonrails.org/blog
+- https://medium.com/@angelolumba/ruby-designed-to-make-programmers-happy-d86f12fa9a14
   Official framework updates, security releases, and architectural direction.
 
 ### Ruby Inside
