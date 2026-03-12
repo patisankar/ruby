@@ -1,5 +1,7 @@
 # Ruby & Ruby on Rails Blogs (Senior / Production-Focused)
+I’ve worked with Rails in production systems, particularly around RESTful APIs, ActiveRecord modeling, and background jobs. I’m comfortable with the conventions-over-configuration philosophy, and I understand common pitfalls like N+1 queries, callback overuse, and fat models.
 
+What I appreciate about Rails is delivery velocity. In the right context, it enables rapid iteration, which is critical in acquisition-focused products."
 ## Tier 1: Must-Read Ruby & Rails Blogs
 
 ### Ruby on Rails (Official)
