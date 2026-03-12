@@ -1,10 +1,7 @@
-# Shankar [Last Name]
-Senior Software Engineer – Ruby on Rails  
-[City, State] • [LinkedIn] • [GitHub] • [Email]
 
----
 
 ## SUMMARY
+https://medium.com/@polamarasettivijay/ruby-on-rails-interview-questions-with-answers-experienced-level-6468f8ad8c7d
 
 Senior Software Engineer with 10+ years of experience building, scaling, and modernizing Ruby on Rails applications. Proven ability to design maintainable architectures, reason deeply about Ruby and Rails internals, and deliver data-driven internal tools used by engineers and data scientists. Strong collaborator with a track record of leading through ambiguity, prioritizing correctness and performance, and enabling safe iteration in production systems.
 
