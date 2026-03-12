@@ -1,9 +1,18 @@
-# Ruby & Ruby on Rails Blogs (Senior / Production-Focused)
+# Introduction
 I’ve worked with Rails in production systems, particularly around RESTful APIs, ActiveRecord modeling, and background jobs. I’m comfortable with the conventions-over-configuration philosophy, and I understand common pitfalls like N+1 queries, callback overuse, and fat models.
 
-What I appreciate about Rails is delivery velocity. In the right context, it enables rapid iteration, which is critical in acquisition-focused products."
-## Tier 1: Must-Read Ruby & Rails Blogs
+What I appreciate about Rails is delivery velocity. In the right context, it enables rapid iteration, which is critical in acquisition-focused products.
 
+## Rails 8 - archetecture
+rails-architecture provides actionable guidance for structuring modern Rails 8 applications, helping developers decide where to place code and which patterns to adopt. 
+It compares service objects, concerns, query objects, interactors, POROs, and ActiveRecord relations; recommends folder layouts (app/services, app/queries, app/commands, app/forms, app/policies); and promotes layered design (presentation, application/domain, persistence). Use it when designing feature architecture, refactoring for clarity, splitting responsibilities, choosing between composition vs inheritance, or organizing large monoliths and engines. It includes naming conventions, dependency-injection approaches, testing strategies, anti-pattern warnings (fat models, overused concerns), and migration tips for extracting logic safely. Core value: faster maintainability, clearer ownership boundaries, improved testability, and predictable scaling paths for Rails codebases.
+
+## Rails Blogs
+[Rubocop](https://github.com/standardrb/standard?tab=readme-ov-file#running-standards-rules-via-rubocop)
+
+claude prompt
+
+Please take all of the RuboCop rules defined in https://raw.githubusercontent.com/standardrb/standard/refs/heads/main/config/base.yml and compare all enabled: false rules to enabled rules in the attached rubocop.gateway.yml file. For each rule in which the attached file enables a rules that's disabled in the StandardRB file, consult RuboCop's docs and show an example of how each differing cop affects code.
 ### Ruby on Rails (Official)
 - https://rubyonrails.org/blog
 - https://medium.com/@angelolumba/ruby-designed-to-make-programmers-happy-d86f12fa9a14
