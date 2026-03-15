@@ -1,5 +1,5 @@
 # Rails Anti-Patterns → Clean Architecture Alternatives
-
+[Ref](https://patrick204nqh.github.io/tech/rails/architecture/layered-architecture-in-ruby-on-rails-a-deep-dive/)
 ## 1. Fat ActiveRecord Models as the “Domain”
 **Anti-pattern**
 - `ApplicationRecord` models contain validations, business rules, billing logic, emails, permissions, and reporting.
