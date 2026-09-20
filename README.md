@@ -1,7 +1,50 @@
 # Introduction
-I’ve worked with Rails in production systems, particularly around RESTful APIs, ActiveRecord modeling, and background jobs. I’m comfortable with the conventions-over-configuration philosophy, and I understand common pitfalls like N+1 queries, callback overuse, and fat models.
+Ruby on Rails is well-suited for building production applications — REST APIs, ActiveRecord models, and background jobs — following its convention-over-configuration approach 
 
-What I appreciate about Rails is delivery velocity. In the right context, it enables rapid iteration, which is critical in acquisition-focused products.
+while staying mindful of common pitfalls like N+1 queries, callback overuse, and bloated models. What stands out most about Ruby on Rails is how fast it lets teams ship, which matters a lot for growth-focused products.
+
+## Best Passionate Ruby Blogs
+
+1. [**Tender Lovemaking — Aaron Patterson**](https://tenderlovemaking.com/)
+
+   Best for Ruby and Rails internals, performance, garbage collection, parsing, debugging, and C extensions. Aaron Patterson is a Ruby and Rails core contributor. This is one of the best sources for senior-level depth.
+
+2. [**Avdi Codes — Avdi Grimm**](https://avdi.codes/)
+
+   Best for object-oriented design, exceptions, refactoring, maintainability, and writing expressive Ruby. His focus is useful for improving PR quality and design judgment.
+
+3. [**RubyTapas**](https://www.rubytapas.com/)
+
+   Short, focused lessons on advanced Ruby, testing, refactoring, and object-oriented design. Good when you have only 15–20 minutes.
+
+4. [**Mike Perham’s Blog**](https://www.mikeperham.com/)
+
+   Very relevant to payment-gateway engineering. Study distributed systems, Sidekiq, background jobs, Redis, concurrency, reliability, and performance.
+
+5. [**Schneems**](https://schneems.com/)
+
+   Excellent for Rails performance, production debugging, open source, memory, and practical engineering lessons.
+
+6. [**Maciej Mensfeld — Running with Ruby**](https://mensfeld.pl/)
+
+   Good for Kafka, Karafka, background processing, Ruby infrastructure, and production systems.
+
+7. [**Andy Croll**](https://andycroll.com/)
+
+   Useful for senior engineering judgment, Rails maintenance, performance, technical leadership, and running mature applications.
+
+8. [**Arkency Blog**](https://blog.arkency.com/)
+
+   Strong source for event sourcing, domain-driven design, CQRS, Ruby design, and complex business workflows.
+
+9. [**Saeloun Blog**](https://blog.saeloun.com/)
+
+   Practical articles about new Ruby and Rails features, performance, database behavior, and Rails upgrades.
+
+10. [**Boring Rails**](https://boringrails.com/)
+
+    Good for production-friendly Rails patterns, maintainability, and simple solutions that scale operationally.
+
 
 ## Rails 8 - archetecture
 rails-architecture provides actionable guidance for structuring modern Rails 8 applications, helping developers decide where to place code and which patterns to adopt. 
@@ -10,9 +53,7 @@ It compares service objects, concerns, query objects, interactors, POROs, and Ac
 ## Rails Blogs
 [Rubocop](https://github.com/standardrb/standard?tab=readme-ov-file#running-standards-rules-via-rubocop)
 
-claude prompt
 
-Please take all of the RuboCop rules defined in https://raw.githubusercontent.com/standardrb/standard/refs/heads/main/config/base.yml and compare all enabled: false rules to enabled rules in the attached rubocop.gateway.yml file. For each rule in which the attached file enables a rules that's disabled in the StandardRB file, consult RuboCop's docs and show an example of how each differing cop affects code.
 ### Ruby on Rails (Official)
 - https://rubyonrails.org/blog
 - https://medium.com/@angelolumba/ruby-designed-to-make-programmers-happy-d86f12fa9a14
@@ -28,7 +69,7 @@ Please take all of the RuboCop rules defined in https://raw.githubusercontent.co
 
 ---
 
-## Tier 2: Large-Scale Production Engineering
+## Large-Scale Production Engineering
 
 ### Shopify Engineering
 - https://shopify.engineering  
@@ -44,7 +85,7 @@ Please take all of the RuboCop rules defined in https://raw.githubusercontent.co
 
 ---
 
-## Tier 3: Performance, Observability & Internals
+##  Performance, Observability & Internals
 
 ### AppSignal Blog
 - https://blog.appsignal.com  
@@ -72,23 +113,11 @@ Please take all of the RuboCop rules defined in https://raw.githubusercontent.co
 
 ---
 
-## Interview-Ready References (Senior Signal)
-
-Hiring-manager–friendly blogs to reference in interviews:
+##  References 
 - Shopify Engineering – Webhooks and scale
 - Stripe Engineering – Payments, retries, idempotency
 - GitHub Engineering – Monoliths at scale
 - Thoughtbot – Clean Rails architecture and refactoring
 
-Example interview reference:
-> "We approached webhook reliability similarly to patterns described in Shopify Engineering, focusing on idempotency and observability."
 
----
 
-## Recommended Reading Order (Based on Payments & Platform Experience)
-
-1. Stripe Engineering  
-2. Shopify Engineering  
-3. AppSignal Blog  
-4. Thoughtbot Blog  
-5. GitHub Engineering
