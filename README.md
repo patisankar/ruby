@@ -3,6 +3,32 @@ Ruby on Rails is well-suited for building production applications — REST APIs,
 
 while staying mindful of common pitfalls like N+1 queries, callback overuse, and bloated models. What stands out most about Ruby on Rails is how fast it lets teams ship, which matters a lot for growth-focused products.
 
+## 1. Rails Internals and Production Behavior
+- **[Official Rails Guides](https://guides.rubyonrails.org/)**
+  Focus on Active Record, caching, Active Job, security, performance, autoloading, and production configuration.
+- **[Rails Inside](https://railsinside.com/)**
+  Specifically written for senior Rails developers, with emphasis on internals, upgrades, refactoring, and performance.
+
+## 2. Performance and Scalability
+- **[Shopify Engineering — How to Write Fast Code in Ruby on Rails](https://shopify.engineering/write-fast-code-ruby-rails)**
+  Covers practical Rails performance thinking and measurement.
+- **[Shopify — Deconstructing the Monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity)**
+  Useful for senior-level architecture discussions: when to keep a monolith, when to modularize, and when to split services.
+- **[Shopify — How Shopify Reduced Storefront Response Times](https://shopify.engineering/how-shopify-reduced-storefront-response-times-rewrite)**
+  Good for discussing correctness versus performance in a large Rails system.
+
+## 3. Ruby Internals and Performance
+- **[Tender Loving Code / Aaron Patterson](https://tenderlovemaking.com/)**
+  Read for Ruby VM behavior, garbage collection, parsing, C extensions, and debugging.
+- **[Shopify Ruby Engineering](https://shopify.engineering/search?q=ruby+rails)**
+  Focus on YJIT, garbage collection, memory layout, Bootsnap, and concurrency.
+
+## 4. Testing and Maintainable Design
+- **[thoughtbot Rails articles](https://thoughtbot.com/blog/tags/ruby-on-rails)**
+  Focus on testing strategy, refactoring, object design, and avoiding brittle tests.
+- **[Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)**
+  Use it as a practical reference for unit, integration, and feature testing.
+  
 ## Best Passionate Ruby Blogs
 
 1. [**Tender Lovemaking — Aaron Patterson**](https://tenderlovemaking.com/)
